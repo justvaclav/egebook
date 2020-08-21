@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ЭТО ЭЛЕМЕНТ ВНЕШНЕГО СПИСКА -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="210dp"
+    android:layout_height="210dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="16dp"
+        >
+
+        <TextView
+            android:id="@+id/themesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gradient_deux"
+            android:clickable="true"
+            android:fontFamily="@font/ralewayblack"
+            android:gravity="center"
+            android:text="Политика"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</LinearLayout>

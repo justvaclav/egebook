@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivityCinq"
+    android:background="#ee73a3">
+
+    <TextView
+        android:id="@+id/registerTextView10"
+        android:layout_width="115dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="28dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:fontFamily="@font/ralewaymedium"
+        android:text="Выберите тест"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spinner2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/descEditText4"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:hint="Прав. ответ"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descEditText2" />
+
+    <EditText
+        android:id="@+id/descEditText3"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:hint="Очки за ответ"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/descEditText4"
+        app:layout_constraintTop_toBottomOf="@+id/descEditText2" />
+
+    <EditText
+        android:id="@+id/descEditText2"
+        android:layout_width="355dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:hint="Описание к правильному ответу"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleEditText" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="148dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerTextView2" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="148dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerTextView2" />
+
+    <TextView
+        android:id="@+id/loginTextView2"
+        android:layout_width="244dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/outline_un"
+        android:clickable="true"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:text="Сохранить"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerTextView9" />
+
+    <TextView
+        android:id="@+id/loginTextView12"
+        android:layout_width="244dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/outline_deux"
+        android:clickable="true"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:text="Удалить вопрос"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#994444"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginTextView2" />
+
+    <TextView
+        android:id="@+id/loginTextView13"
+        android:layout_width="70dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/outline_deux"
+        android:clickable="true"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:text="Удалить весь тест"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#994444"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/titleEditText2"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/registerTextView2"
+        android:layout_width="244dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:text="Редактирование тестов"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/registerTextView8"
+        android:layout_width="149dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="28dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:fontFamily="@font/ralewaymedium"
+        android:text="Выберите вопрос"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spinner"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/registerTextView9"
+        android:layout_width="362dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="24dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:fontFamily="@font/ralewaymedium"
+        android:text="Все поля обязательны для заполнения"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descEditText" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="357dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:hint="Вопрос"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleEditText2" />
+
+    <EditText
+        android:id="@+id/titleEditText2"
+        android:layout_width="275dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:hint="Название теста"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerTextView2" />
+
+    <EditText
+        android:id="@+id/descEditText"
+        android:layout_width="364dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:hint="Варианты ответов с новой строки"
+        android:inputType="textMultiLine"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descEditText3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

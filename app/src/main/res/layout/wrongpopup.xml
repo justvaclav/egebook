@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="350dp"
+    android:layout_height="420dp"
+    android:background="@drawable/gradient_sept"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:id="@+id/imageView2"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/wrong" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/ralewaymedium"
+        android:text="НЕПРАВИЛЬНЫЙ ОТВЕТ"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/answerTextView"
+        android:layout_width="326dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:fontFamily="@font/ralewaymedium"
+        android:gravity="center"
+        android:text="Редактирование предмета"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal" android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="196dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/outline_trois"
+            android:clickable="true"
+            android:fontFamily="@font/ralewaymedium"
+            android:gravity="center"
+            android:scrollbars="horizontal"
+            android:text="OK"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ok2"
+            android:layout_width="66dp"
+            android:layout_height="53dp"
+
+            android:background="@drawable/outline_trois"
+            android:clickable="true"
+            android:fontFamily="@font/ralewaymedium"
+            android:gravity="center"
+            android:scrollbars="horizontal"
+            android:text="\?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

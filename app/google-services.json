@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "310807256129",
+    "firebase_url": "https://egebook-f9727.firebaseio.com",
+    "project_id": "egebook-f9727",
+    "storage_bucket": "egebook-f9727.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310807256129:android:aef0c92e45c6f3a9b17ac0",
+        "android_client_info": {
+          "package_name": "com.egebook.egebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310807256129-f9poe0gq5jpcsfu93n1d7cmbc2l2emk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.egebook.egebook",
+            "certificate_hash": "6d901504e6bfde0456d4b73115cd9aea032cd685"
+          }
+        },
+        {
+          "client_id": "310807256129-74seeedbeir4jpommcanikfl31764ou2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSQuBco0wuZWd24yye3BRi_gd2Yf_otv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310807256129-74seeedbeir4jpommcanikfl31764ou2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310807256129-fc2bhd19qb55gu4aveonf7kvdikeual1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "j"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310807256129:android:29a4b54a27eb6d43b17ac0",
+        "android_client_info": {
+          "package_name": "com.example.egebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310807256129-f028360b4b0f0loffs2o1g362k5u7s96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.egebook",
+            "certificate_hash": "d845cd609679812baf84f986005bd7e3ba21b7ba"
+          }
+        },
+        {
+          "client_id": "310807256129-74seeedbeir4jpommcanikfl31764ou2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSQuBco0wuZWd24yye3BRi_gd2Yf_otv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310807256129-74seeedbeir4jpommcanikfl31764ou2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "310807256129-fc2bhd19qb55gu4aveonf7kvdikeual1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "j"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

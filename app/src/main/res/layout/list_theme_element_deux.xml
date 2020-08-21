@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <!--<ImageView
+        android:id="@+id/videosImagetView"
+        android:layout_width="100dp"
+        android:layout_height="57dp"
+        android:layout_weight="1"
+        android:background="@drawable/file2"
+        android:contentDescription="@string/app_name"
+        android:paddingTop="16dp" />-->
+
+    <TextView
+        android:id="@+id/themesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:fontFamily="@font/ralewaymedium"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:text="Политика"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+</LinearLayout>
